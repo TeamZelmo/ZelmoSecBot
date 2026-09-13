@@ -273,7 +273,7 @@ def main():
         )
     )
 
-    app.add_handler(CallbackQueryHandler(handle_check_join_button, pattern="^check_join$"))
+    app.add_handler(CallbackQueryHandler(handle_check_join_button, pattern=r"^check_join:"))
 
     logger.info("Bot start ho gaya hai...")
     app.run_polling(allowed_updates=Update.ALL_TYPES)
