@@ -268,7 +268,7 @@ def main():
     # Group ke andar text/media messages ke liye
     app.add_handler(
         MessageHandler(
-            filters.ChatType.GROUPS & (~filters.STATUS_UPDATE),
+            filters.ChatType.GROUPS & (~filters.StatusUpdate.ALL),
             handle_group_message,
         )
     )
