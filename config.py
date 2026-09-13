@@ -4,11 +4,11 @@
 # -----------------------------------------
 
 # BotFather se mila hua bot token
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8836762588:AAH-TedOWd_tdtISJsQA7-yv2AOI6LOMq8s"
 
 # Aapke bot ka username (@ ke bina), jaise "my_verify_bot"
 # Yeh DM deep-link banane ke liye zaroori hai (Verify button ke liye)
-BOT_USERNAME = "YOUR_BOT_USERNAME_HERE"
+BOT_USERNAME = "ZelmoSecBot"
 
 # Sabhi required channels ki list
 # id: channel ka numeric ID (jaise -1001234567890) ya "@username"
@@ -20,14 +20,24 @@ BOT_USERNAME = "YOUR_BOT_USERNAME_HERE"
 
 CHANNELS = [
     {
-        "id": "@your_channel_1",
-        "title": "Channel 1",
-        "link": "https://t.me/your_channel_1",
+        "id": "@ZelmoApex",
+        "title": "Zelmo Apex | OTT Shop",
+        "link": "https://t.me/ZelmoApex",
     },
     {
-        "id": "@your_channel_2",
-        "title": "Channel 2",
-        "link": "https://t.me/your_channel_2",
+        "id": "@ZelmoStock",
+        "title": "Zelmo Stock | OTT Shop",
+        "link": "https://t.me/ZelmoStock",
+    },
+    {
+        "id": "@zelmoreview",
+        "title": "Zelmo Review | OTT Shop",
+        "link": "https://t.me/zelmoreview",
+    },
+    {
+        "id": "@zelmoproof",
+        "title": "Zelmo Proof | OTT Shop",
+        "link": "https://t.me/zelmoproof",
     },
     # Jitne chahiye utne channels yahan add karte jaayein
 ]
